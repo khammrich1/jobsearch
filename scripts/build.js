@@ -13,6 +13,7 @@ const run = (script, ...args) => { console.log('>', script, ...args); execFileSy
 if (only) { run('enterprise.js', only); process.exit(0); }
 for (const v of variants) run('enterprise.js', v);
 run('runpod_em.js');
+run('costco_em.js');
 run('letters.js');
 run('letters_helion.js');
 run('letter_ct.js');
