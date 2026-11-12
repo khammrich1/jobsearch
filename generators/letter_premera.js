@@ -1,0 +1,11 @@
+const { letter } = require('./lib');
+const out = process.argv[2];
+
+letter([
+  'Premera Blue Cross — Systems Analyst III (R29150)',
+  'I\'m applying for the Systems Analyst III role. The work you describe — representing the business inside an Agile team, running requirements decomposition, writing the data mapping and transformation rules, and seeing a change through testing and UAT — is the part of my career I\'ve liked best, and I\'d like to do it for a company twenty minutes from my house whose mission I understand from the patient side.',
+  'At Ziply Fiber I led the New Data Stack program, replacing legacy systems with Microsoft Dynamics during the carve-out from Frontier. That meant sitting with business stakeholders across 15 teams to work out what they actually needed, decomposing it into scope, dependencies, and risk, and turning it into integration plans and data-mapping specifications for roughly 30 applications, including Salesforce. I then led the engineers who built the ETL and API integrations, ran delivery in Jira and Confluence on an Agile cadence, and reported trade-offs to senior leadership. Before that I ran production operations for 40-plus business applications, where SQL was a daily tool for validating data, chasing root causes, and building operational reports. Most recently I supported MOSAIQ, a HIPAA-regulated clinical application at Fred Hutch, translating clinician workflow needs into validated changes under formal change control.',
+  'What I\'d bring to Premera: requirements work that engineers can build from, comfort with data flows and integrations at the API and pipeline level, test planning and UAT discipline from regulated environments, and the habit of writing things down. I\'ll be direct about the gaps: I haven\'t used UiPath or Appian, and my warehouse experience is SQL Server and Tableau rather than Snowflake. I\'ve picked up every platform I\'ve been handed and expect to do the same here.',
+  'I live in Stanwood and would welcome either the telecommuter arrangement as posted or time on the Mountlake Terrace campus. I\'d be glad to talk.',
+  'Thanks for your consideration.',
+], out + '/Kyle_Hammrich_Premera_Cover_Letter.docx');

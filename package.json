@@ -1,0 +1,13 @@
+{
+  "name": "jobsearch",
+  "private": true,
+  "description": "Kyle Hammrich — job search materials: resume and cover-letter generators (docx-js), applications tracker, interview prep, EOD status for Today.",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "check": "node scripts/onepage.js"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}
